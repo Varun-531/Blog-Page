@@ -1,6 +1,6 @@
 import React from 'react'
 
-function errorpage() {
+function footer() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function errorpage() {
   )
 }
 
-export default errorpage
+export default footer
