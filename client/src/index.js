@@ -1,20 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import Layout from './components/layout';
-import ErrorPage from './components/error-page';
-import { createBrowserRouter } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Layout from "./components/layout";
+import ErrorPage from "./pages/errorpage";
+import { createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
-  {path:'/',
+  { path: "/",
     element: <Layout />,
-    errorElement: <ErrorPage/>
-    },
+    errorElement: <ErrorPage />
+  },
+]);
 
-
-])
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <h1>Hello world!</h1>
