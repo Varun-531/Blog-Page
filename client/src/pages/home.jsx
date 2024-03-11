@@ -1,8 +1,8 @@
+import React from 'react';
+import Posts from '../components/posts';
 const home = () => {
   return (
-    <div>
-     Home
-    </div>
+    <Posts />
   );
 };
 
