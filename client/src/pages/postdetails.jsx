@@ -37,18 +37,20 @@ function postdetail() {
           fuga perferendis ad, dicta ipsam harum, voluptate facere esse, enim
           reprehenderit molestiae nisi.
         </p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
-        commodi! Accusamus qui doloremque, in autem culpa beatae. Ad sapiente
-        illum neque quod est inventore, nemo ut nostrum earum cupiditate maxime
-        nesciunt nihil odio et officia facilis amet sit minus iure non quasi
-        molestiae totam doloribus dicta. Quam eveniet in accusantium architecto
-        iste incidunt, fuga, reprehenderit necessitatibus similique sequi
-        inventore ullam nam aliquid vitae minus consequatur odio neque nobis
-        nesciunt expedita aut ducimus delectus eos. Inventore voluptatem quidem
-        obcaecati laborum maiores eum ad aliquam, quibusdam quos itaque expedita
-        asperiores. Asperiores nostrum, ut, in ex quo soluta iste aut magni
-        delectus sint, libero suscipit ea? Debitis sit dignissimos sunt nam
-        magni soluta sequi.
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
+          commodi! Accusamus qui doloremque, in autem culpa beatae. Ad sapiente
+          illum neque quod est inventore, nemo ut nostrum earum cupiditate
+          maxime nesciunt nihil odio et officia facilis amet sit minus iure non
+          quasi molestiae totam doloribus dicta. Quam eveniet in accusantium
+          architecto iste incidunt, fuga, reprehenderit necessitatibus similique
+          sequi inventore ullam nam aliquid vitae minus consequatur odio neque
+          nobis nesciunt expedita aut ducimus delectus eos. Inventore voluptatem
+          quidem obcaecati laborum maiores eum ad aliquam, quibusdam quos itaque
+          expedita asperiores. Asperiores nostrum, ut, in ex quo soluta iste aut
+          magni delectus sint, libero suscipit ea? Debitis sit dignissimos sunt
+          nam magni soluta sequi.
+        </p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
           corrupti deleniti veniam suscipit, eius facilis! Magnam id alias vel

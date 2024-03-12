@@ -1,11 +1,49 @@
-import React from 'react'
+import React from "react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+function Login() {
+  const [userData, setUserData] = useState({
+    email: "",
+    password: "",
+  });
 
-function login() {
+  const changeInputHandler = (e) => {
+    setUserData((prevState) => {
+      return { ...prevState, [e.target.name]: e.target.value };
+    });
+  };
   return (
-    <div>
-      login
-    </div>
-  )
+    <section className="register">
+      <div className="container">
+        <h2>Sign In</h2>
+        <form className="form login_form">
+          <p className="form_error-message">This is error message</p>
+
+          <input
+            type="text"
+            placeholder="Email"
+            name="email"
+            value={userData.email}
+            onChange={changeInputHandler}
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            value={userData.password}
+            onChange={changeInputHandler}
+          />
+
+          <button type="submit" className="btn primary">
+            Login
+          </button>
+        </form>
+        <small>
+          Don't have an account <Link to={"/register"}>sign up</Link>
+        </small>
+      </div>
+    </section>
+  );
 }
 
-export default login
+export default Login;
